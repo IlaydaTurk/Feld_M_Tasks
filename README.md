@@ -15,7 +15,7 @@
  
 ### 1. Task1
 
-For Task 1, I tried to find the visitor who created the most revenue by pandas data frame operations and by SQL commands. As a first, I took the transactions and devices tables data as data frames.
+For [Task 1](https://github.com/IlaydaTurk/Feld_M_Tasks/blob/main/Task1_by_dataframe.py), I tried to find the visitor who created the most revenue by pandas data frame operations and by SQL commands. As a first, I took the transactions and devices tables data as data frames.
 
 - In the *Task1_by_dataframe* file, I grouped the visitors to find the total revenue that they created. Then I sorted these total revenue as descending and took the maximum total revenue and the id of visitor that created this revenue.
 Also, I calculated the most net revenue by dropping tax and it gave the same visitor_id.
