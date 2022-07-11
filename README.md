@@ -13,9 +13,9 @@
    - xml.etree.ElementTree as ET
    - psycopg2
  
-### 1. Task1
-For Task 1, I tried to find the visitor who created the most revenue by pandas data frame operations and by SQL commands.
-As a first, I took the transactions and devices tables data as data frames.
+### 1. Task1
+
+For Task 1, I tried to find the visitor who created the most revenue by pandas data frame operations and by SQL commands. As a first, I took the transactions and devices tables data as data frames.
 
 - In the *Task1_by_dataframe* file, I grouped the visitors to find the total revenue that they created. Then I sorted these total revenue as descending and took the maximum total revenue and the id of visitor that created this revenue.
 Also, I calculated the most net revenue by dropping tax and it gave the same visitor_id.
@@ -23,6 +23,7 @@ Also, I calculated the most net revenue by dropping tax and it gave the same vis
 - In the *Task1_by_sql* file, I find the visitor who created the most revenue by using SQL commands. I used nested queries to group visitor_id's and calculate the total revenue that they created. Then I returned the maximum total revenue and the id of the visitor that created this revenue.
 
 ### 2. Task2
+
 In Task 2, I tried to find the day when the most revenue was created by mobile phones using pandas data frame operations and SQL commands.
 
 - In the *Task2_by_dataframe* file, after I took the transaction and devices data from the database, I checked columns' data types and updated them to be able to work on DateTime data. I used pandas data frame mask operations to find only transactions created by mobile phones and then grouped the total revenues by day from datetime column and took the maximum total revenue using the head function after sorting as descending them.
