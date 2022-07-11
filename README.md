@@ -7,11 +7,11 @@
 
 ## Libraries Used
 
-   sqlite3
-   pandas
-   datetime
-   xml.etree.ElementTree as ET
-   psycopg2
+   - sqlite3
+   - pandas
+   - datetime
+   - xml.etree.ElementTree as ET
+   - psycopg2
  
 ### 1. Task1
 For Task 1, I tried to find the visitor who created the most revenue by pandas data frame operations and by SQL commands.
